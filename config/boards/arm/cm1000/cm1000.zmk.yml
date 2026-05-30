@@ -1,0 +1,15 @@
+file_format: "1"
+id: cm1000
+name: CM1000
+type: mcu
+arch: arm
+features:
+  - keys
+  - underglow
+  - display
+  - encoder
+  - studio
+outputs:
+  - usb
+  - ble
+soc: nrf52840

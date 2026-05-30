@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: MIT
+
+if BOARD_CM1000 || BOARD_CM1000_NRF52840_ZMK
+
+config BOARD_CM1000_INIT
+    bool "CM1000 board init (ISET charge current)"
+    default y
+    help
+      Drives BQ24075 ISET GPIO pins at boot to configure the default
+      charge current (~350 mA).
+
+endif

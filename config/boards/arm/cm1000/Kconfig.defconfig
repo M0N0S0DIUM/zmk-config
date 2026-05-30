@@ -1,0 +1,28 @@
+if BOARD_CM1000
+
+config BOARD
+    default "cm1000"
+
+config ZMK_KEYBOARD_NAME
+    default "CM1000"
+
+config ZMK_RGB_UNDERGLOW
+    default y
+
+config ZMK_DISPLAY
+    default y
+
+config ZMK_STUDIO
+    default y
+
+config ZMK_BATTERY
+    default y
+
+config USB_NRFX
+    default y
+    depends on USB_DEVICE_STACK
+
+config BT_CTLR
+    default y
+
+endif # BOARD_CM1000
