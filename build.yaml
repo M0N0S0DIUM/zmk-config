@@ -1,4 +1,4 @@
 include:
   - board: cm1000//zmk
-    shield: nice_view_adapter dongle_display
+    shield: dongle_display
     snippet: studio-rpc-usb-uart
