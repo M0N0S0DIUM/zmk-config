@@ -109,7 +109,14 @@
             gpios = <&gpio1 15 GPIO_ACTIVE_LOW>;
         };
     };
+
+  ext_power_led: ext_power_led {
+      compatible = "zmk,ext-power-generic";
+      control-gpios = <&gpio1 0 GPIO_ACTIVE_HIGH>;
+  };
+
 };
+
 
 &spi3 {
     compatible = "nordic,nrf-spim";
@@ -211,8 +218,3 @@
 &gpio1 { status = "okay"; };
 
 zephyr_udc0: &usbd { status = "okay"; };
-
-
-
-
-
