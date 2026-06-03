@@ -28,9 +28,9 @@
             sensor-bindings = <&encoder_vol>;
         };
 
-        layer_2 {
+        control_layer {
             bindings = <
-&bt BT_CLR_ALL  &studio_unlock  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &rgb_ug RGB_BRI  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &rgb_ug RGB_COLOR_HSB(283,100,50)  &rgb_ug RGB_BRD  &rgb_ug RGB_COLOR_HSB(57,100,50)
+&bt BT_CLR_ALL  &studio_unlock  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &rgb_ug RGB_COLOR_HSB(0,0,100)  &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(26,100,50)  &rgb_ug RGB_COLOR_HSB(62,100,50)  &rgb_ug RGB_COLOR_HSB(112,100,49)  &rgb_ug RGB_COLOR_HSB(211,100,50)  &rgb_ug RGB_COLOR_HSB(228,100,50)  &rgb_ug RGB_COLOR_HSB(291,100,50)  &rgb_ug RGB_COLOR_HSB(177,32,45)  &rgb_ug RGB_COLOR_HSB(177,34,22)  &trans  &rgb_ug RGB_BRI  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &rgb_ug RGB_SPD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPI
             >;
         };
     };
